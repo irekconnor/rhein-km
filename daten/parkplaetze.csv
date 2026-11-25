@@ -1,0 +1,6 @@
+# Öffentliche Parkplätze direkt am Rhein (NRW, Rhein-km 639–865), höchstens 100 m hinter der Uferlinie.
+# Daten: © OpenStreetMap-Mitwirkende, ODbL 1.0 (https://www.openstreetmap.org/copyright). Ohne Gewähr.
+# lat;lon;zehntelKm;ufer;abstandUferM;art;gebuehr;plaetze;name;osmId
+51.579427;6.665740;8002;R;36;Parkplatz;kostenlos;;;way/209045047
+51.579860;6.662028;8004;R;57;Parkplatz;unbekannt;;;way/209042277
+51.583193;6.595612;8064;L;45;Parkplatz;unbekannt;;;way/1272705604

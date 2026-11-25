@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Daten aus OpenStreetMap – RheinAngler</title>
+<style>
+:root { color-scheme: light dark; }
+body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; line-height: 1.6; max-width: 46rem; margin: 0 auto; padding: 2rem 1rem 4rem; color: #1f2328; background: #ffffff; }
+h1 { font-size: 1.6rem; line-height: 1.25; margin-bottom: 0.25rem; }
+h2 { font-size: 1.15rem; margin-top: 2rem; }
+.stand { color: #59636e; margin-top: 0; }
+a { color: #0b6bcb; word-break: break-word; }
+li { margin-bottom: 0.3rem; }
+@media (prefers-color-scheme: dark) { body { color: #e6edf3; background: #0d1117; } .stand { color: #9198a1; } a { color: #4493f8; } }
+</style>
+</head>
+<body>
+<h1>Daten aus OpenStreetMap in der App „RheinAngler“</h1>
+<p class="stand">Stand: 25. November 2026</p>
+<p>Die Ortssuche und die Parkplätze in der App beruhen auf Daten von <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>. Die daraus abgeleiteten Dateien stehen hier zum Herunterladen, unter derselben Lizenz wie die Ausgangsdaten.</p>
+<ul>
+<li><a href="orte.csv">orte.csv</a> – Orte am Rhein mit dem nächsten Rhein-Kilometer</li>
+<li><a href="parkplaetze.csv">parkplaetze.csv</a> – öffentliche Parkplätze direkt am Rhein (Rhein-km 790–810)</li>
+</ul>
+<h2>Lizenz</h2>
+<p>© OpenStreetMap-Mitwirkende. Die Dateien stehen unter der <a href="https://opendatacommons.org/licenses/odbl/1-0/">Open Database License (ODbL) 1.0</a>. Wer sie weitergibt oder verändert veröffentlicht, muss OpenStreetMap nennen und dieselbe Lizenz verwenden.</p>
+<h2>Was wurde bearbeitet?</h2>
+<ul>
+<li><strong>Orte:</strong> Objekte mit <code>place=city, town, village, suburb, quarter</code> oder <code>hamlet</code>, höchstens 3 km von der Rheinachse entfernt (Städte 8 km). Ergänzt um Rhein-Kilometer, Uferseite und Abstand. Von gleichnamigen Orten bleibt der wichtigere, sonst der nähere.</li>
+<li><strong>Parkplätze:</strong> öffentlich zugängliche Parkplätze, höchstens 100 m hinter der Uferlinie. Ergänzt um Rhein-Kilometer, Uferseite und Abstand zum Ufer.</li>
+</ul>
+<p>Rhein-Kilometer: Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV), BWaStr-Locator. Alle Angaben ohne Gewähr.</p>
+<p><a href="../datenschutz.html">Datenschutzerklärung der App</a></p>
+</body>
+</html>
