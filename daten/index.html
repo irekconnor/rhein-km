@@ -17,18 +17,22 @@ li { margin-bottom: 0.3rem; }
 </head>
 <body>
 <h1>Daten aus OpenStreetMap in der App „RheinAngler“</h1>
-<p class="stand">Stand: 25. November 2026</p>
+<p class="stand">Stand: 26. November 2026</p>
 <p>Die Ortssuche und die Parkplätze in der App beruhen auf Daten von <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>. Die daraus abgeleiteten Dateien stehen hier zum Herunterladen, unter derselben Lizenz wie die Ausgangsdaten.</p>
 <ul>
 <li><a href="orte.csv">orte.csv</a> – Orte am Rhein mit dem nächsten Rhein-Kilometer</li>
-<li><a href="parkplaetze.csv">parkplaetze.csv</a> – öffentliche Parkplätze direkt am Rhein (Rhein-km 790–810)</li>
+<li><a href="parkplaetze.csv">parkplaetze.csv</a> – öffentliche Parkplätze direkt am Rhein (ganze deutsche Strecke, Rhein-km 170–865)</li>
+<li><a href="faehren.csv">faehren.csv</a> – Anleger der Rheinfähren (Rhein-km 170–865)</li>
+<li><a href="bruecken.csv">bruecken.csv</a> – Rheinbrücken als Linien (Rhein-km 170–865)</li>
 </ul>
 <h2>Lizenz</h2>
 <p>© OpenStreetMap-Mitwirkende. Die Dateien stehen unter der <a href="https://opendatacommons.org/licenses/odbl/1-0/">Open Database License (ODbL) 1.0</a>. Wer sie weitergibt oder verändert veröffentlicht, muss OpenStreetMap nennen und dieselbe Lizenz verwenden.</p>
 <h2>Was wurde bearbeitet?</h2>
 <ul>
 <li><strong>Orte:</strong> Objekte mit <code>place=city, town, village, suburb, quarter</code> oder <code>hamlet</code>, höchstens 3 km von der Rheinachse entfernt (Städte 8 km). Ergänzt um Rhein-Kilometer, Uferseite und Abstand. Von gleichnamigen Orten bleibt der wichtigere, sonst der nähere.</li>
-<li><strong>Parkplätze:</strong> öffentlich zugängliche Parkplätze, höchstens 100 m hinter der Uferlinie. Ergänzt um Rhein-Kilometer, Uferseite und Abstand zum Ufer.</li>
+<li><strong>Parkplätze:</strong> Objekte mit <code>amenity=parking</code> ohne private, Kunden- und Straßenrand-Plätze, höchstens 300 m hinter der Uferlinie, nur auf deutscher Seite. Ergänzt um Rhein-Kilometer, Uferseite und Abstand zum Ufer. Die Uferlinie stammt in Nordrhein-Westfalen aus dem Digitalen Geländemodell des Wasserlaufs der WSV, oberhalb davon aus den Wasserflächen des Rheins in OpenStreetMap.</li>
+<li><strong>Fähren:</strong> Wege mit <code>route=ferry</code>, die den Rhein queren (Enden auf verschiedenen Rheinseiten). Je Fähre die beiden Anleger, ergänzt um Rhein-Kilometer und Uferseite.</li>
+<li><strong>Brücken:</strong> Wege mit <code>bridge=*</code> und <code>highway</code> oder <code>railway</code>, die den Rhein queren, samt angehängten Brückenwegen; Wege bei fast demselben Rhein-Kilometer bilden eine Brücke. Name aus <code>man_made=bridge</code>, <code>bridge:name</code> oder dem Wegnamen.</li>
 </ul>
 <p>Rhein-Kilometer: Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV), BWaStr-Locator. Alle Angaben ohne Gewähr.</p>
 <p><a href="../datenschutz.html">Datenschutzerklärung der App</a></p>

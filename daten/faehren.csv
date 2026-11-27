@@ -1,0 +1,73 @@
+# Anleger der Rheinfähren (Rhein-km 170–865), aus OpenStreetMap (Wege mit route=ferry, die den Rhein queren).
+# Daten: © OpenStreetMap-Mitwirkende, ODbL 1.0 (https://www.openstreetmap.org/copyright). Ohne Gewähr.
+# lat;lon;zehntelKm;ufer;name;osmId
+47.591665;7.591400;1702;R;Huningue - Weil am Rhein;way/447463157
+47.592621;7.588970;1703;L;Huningue - Weil am Rhein;way/447463157
+48.313510;7.713199;2610;L;Kappel - Rhinau;way/26242643
+48.311641;7.714803;2611;R;Kappel - Rhinau;way/26242643
+48.756085;7.968280;3184;L;Drusus;way/3549182
+48.754686;7.971247;3184;R;Drusus;way/3549182
+48.887667;8.134727;3403;L;Rheinfähre Plittersdorf - Seltz;way/39604833
+48.887157;8.136449;3403;R;Rheinfähre Plittersdorf - Seltz;way/39604833
+48.978880;8.254837;3542;L;Rheinfähre Neuburg;way/3500103
+48.977341;8.256950;3542;R;Rheinfähre Neuburg;way/3500103
+49.115843;8.365357;3721;R;Rheinfähre Leimersheim;way/176334498
+49.116013;8.362194;3721;L;Rheinfähre Leimersheim;way/176334498
+49.391598;8.501585;4095;R;Kollerfähre;way/25009271
+49.391162;8.498316;4095;L;Kollerfähre;way/25009271
+49.441030;8.500534;4155;L;Rheinfähre Altrip – Mannheim;way/1043388151
+49.441769;8.501439;4155;R;Rheinfähre Altrip – Mannheim;way/1043388151
+49.755108;8.471504;4617;L;Rheinfähre Helene;way/4790479
+49.753309;8.474551;4617;R;Rheinfähre Helene;way/4790479
+49.865371;8.351961;4807;L;Rheinfähre Landskrone;way/4865498
+49.866908;8.354964;4807;R;Rheinfähre Landskrone;way/4865498
+50.000315;8.018373;5189;R;Fähre Ingelheim - Oestrich-Winkel;way/25023942
+49.993858;8.019939;5193;L;Fähre Ingelheim - Oestrich-Winkel;way/25023942
+49.970543;7.913121;5274;L;Fähre Bingen - Rüdesheim;way/25890695
+49.976199;7.911718;5275;R;Fähre Bingen - Rüdesheim;way/25890695
+50.033694;7.808658;5393;L;Fähre Niederheimbach - Lorch;way/131749708
+50.040706;7.809863;5398;R;Fähre Niederheimbach - Lorch;way/131749708
+50.083617;7.761694;5462;L;Fähre Kaub - Engelsburg;way/4555070
+50.085757;7.764344;5463;R;Fähre Kaub - Engelsburg;way/4555070
+50.150193;7.717745;5560;L;Fähre Loreley;way/26233668
+50.150986;7.716251;5561;L;Personenschiffahrt St. Goar - St. Goarshausen;way/222133777
+50.153256;7.717472;5562;R;Fähre Loreley;way/26233668
+50.153915;7.715451;5563;R;Personenschiffahrt St. Goar - St. Goarshausen;way/222133777
+50.234768;7.592646;5705;R;Fähre Boppard - Filsen;way/24659394
+50.233136;7.592728;5705;L;Fähre Boppard - Filsen;way/24659394
+50.502804;7.309931;6226;L;Autofähre Bad Hönningen - Bad Breisig;way/128728981
+50.504474;7.313181;6226;R;Autofähre Bad Hönningen - Bad Breisig;way/128728981
+50.565495;7.277521;6299;R;Rheinfähre Linz-Remagen;way/4842050
+50.564133;7.274091;6299;L;Rheinfähre Linz-Remagen;way/4842050
+50.581581;7.237012;6334;R;Rheinfähre Erpel-Remagen;way/237840897
+50.579604;7.234601;6335;L;Rheinfähre Erpel-Remagen;way/237840897
+50.632175;7.208886;6402;L;Fähre Bad Honnef;way/19430171
+50.631895;7.213881;6402;R;Fähre Bad Honnef;way/19430171
+50.670873;7.188668;6450;L;Rheinfähre Königswinter;way/6282479
+50.672745;7.191954;6451;R;Rheinfähre Königswinter;way/6282479
+50.691663;7.171205;6476;L;Autoschnellfähre Bad Godesberg-Niederdollendorf;way/5063875
+50.693507;7.175603;6477;R;Autoschnellfähre Bad Godesberg-Niederdollendorf;way/5063875
+50.768527;7.068383;6597;L;Autofähre Mondorf-Graurheindorf;way/9651935
+50.771841;7.069741;6598;R;Autofähre Mondorf-Graurheindorf;way/9651935
+50.827438;6.992248;6691;R;Personenfähre Lülsdorf-Wesseling;way/130442337
+50.825634;6.986385;6694;L;Personenfähre Lülsdorf-Wesseling;way/130442337
+50.871106;7.041163;6767;R;Fähre Weiß-Zündorf;way/25359761
+50.874673;7.039425;6768;L;Fähre Weiß-Zündorf;way/25359761
+50.942455;6.963299;6886;L;Personenfähre Köln-Deutz;way/29144696
+50.942340;6.968379;6886;R;Personenfähre Köln-Deutz;way/29144696
+51.053698;6.915606;7053;L;Rheinfähre Köln-Langel/Hitdorf;way/19766115
+51.057104;6.917990;7054;R;Rheinfähre Köln-Langel/Hitdorf;way/19766115
+51.098224;6.876650;7136;L;Piwipper Böötchen;way/211947910
+51.098219;6.882802;7138;R;Piwipper Böötchen;way/211947910
+51.127787;6.851322;7180;L;Rheinfähre Zons-Urdenbach;way/23914745
+51.129934;6.854273;7181;R;Rheinfähre Zons-Urdenbach;way/23914745
+51.297177;6.728241;7551;R;Fähre "Langst-Kaiserswerth";way/5172541
+51.298444;6.724793;7551;L;Fähre "Langst-Kaiserswerth";way/5172541
+51.526317;6.699973;7926;R;Rheinfähre Walsum-Orsoy;way/8106671
+51.523432;6.697070;7926;L;Rheinfähre Walsum-Orsoy;way/8106671
+51.667423;6.483189;8234;R;Personenfähre Bislich Keer Tröch II;way/25807543
+51.665344;6.480416;8234;L;Personenfähre Bislich Keer Tröch II;way/25807543
+51.756818;6.395817;8373;R;Rääße Pöntje;way/41332420
+51.752112;6.395109;8374;L;Rääße Pöntje;way/41332420
+51.787424;6.319060;8449;L;Inseltreue B;way/130408234
+51.790200;6.322230;8451;R;Inseltreue B;way/130408234
